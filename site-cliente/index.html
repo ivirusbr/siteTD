@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!--fonte-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="/javascript/script.js" defer></script>
+</head>
+<body>
+   <div class="cont-todo">
+    <header><h1>Todo List</h1></header>
+    <form id="todo-formulario">
+        <p>Adicione sua tarefa</p>
+        <div id="sedunda">
+            <input type="text"
+            id="todo-input"
+            placeholder="qual a tarefa ?"
+            >
+            <button type="submit">
+                <i class="fa-thin fa-plus" ></i>
+                </button>
+            </div>
+            </form>
+                <form id="edit-form" class="hide">
+                    <p>Editar tarefa</p>
+                    <div class="from-control">
+                        <input type="text" id="edit-tarefa">
+                        <button type="submit">
+                            <i class="fa-solid fa-check-double"></i>
+                        </button>
+                    </div>
+                    
+                    <button id="cancel-b">cancelar</button>
+                    
+                </form>
+                <form>
+                <div id="ferramentas">  
+                    
+                    <div id="pesquisaa">
+                        <h4 class="unico">pesquisa:</h4> 
+                        <div id="teste">
+                    <input type="text" id="pesquisar-input" placeholder="Buscar">
+                    <button >
+                        <i class="fa-solid fa-delete-left"></i>
+                    </button>
+                        </div>
+                    </div>
+               
+                   
+                    <div id="selecao">
+                        <h4 class="unico">pesquisa:</h4>  
+                        <select  id="select">
+                            <option value="bruno">bruno</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+               
+                
+            
+       
+
+  
+   <div class="todo-list">
+    <div class="todo done">
+        <h3>estou faaaaaa</h3>
+        <button class="fim">
+            <i class="fa-solid fa-check"></i>
+        </button>
+        <button class="edite">
+            <i class="fa-solid fa-pen"></i>
+        </button>
+        <button class="finish">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+    <div class="todo">
+        <h3>estou faaaaaa</h3>
+        <button class="fim">
+            <i class="fa-solid fa-check"></i>
+        </button>
+        <button class="edite">
+            <i class="fa-solid fa-pen"></i>
+        </button>
+        <button class="finish">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+    </div>
+   </div>
+</div>
+   
+
+
+   
+    
+</body>
+</html>
