@@ -50,7 +50,7 @@ select{
 .cont-todo{
     max-width: 450px;
     margin: 3rem auto;
-    background-color: grey;
+    background-color: rgb(133, 206, 255);
     padding: 1.5rem;
     border-radius: 15px;
     border: 2px solid green;
